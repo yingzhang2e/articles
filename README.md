@@ -1,5 +1,5 @@
 
-## REST Web Service using Spring Boot + JPA + Hibernate + H2 database for Angular 6 application
+## REST Web Service using Spring Boot + JPA + Hibernate + H2 database for Angular 6 application -
 
 REST web service will expose methods for create, read, update and delete operation. If the client application is running on different domain from web service domain, then the Spring Boot web service controller will configure client domain URL using @CrossOrigin annotation to handle Cross-Origin-Resource-Sharing (CORS). If the client is running on http://localhost:4200, @CrossOrigin(origins = {"http://localhost:4200"}) will be added to public class ArticleController as annotation.
 
